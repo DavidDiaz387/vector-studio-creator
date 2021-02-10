@@ -1,0 +1,12 @@
+.option{
+    padding: 7% 5%;
+    
+    background-color: rgb(62,62,62);
+}
+
+.option a {
+    text-decoration: none;
+    padding: 12% 5%;
+    padding-right: 20%;
+    color: white;
+}

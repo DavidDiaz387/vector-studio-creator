@@ -1,0 +1,19 @@
+.editor{
+    width: 60%;
+}
+
+.medidas{
+    width: 100%;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.card{
+    width: 40%;
+    border: red 1px solid;
+}

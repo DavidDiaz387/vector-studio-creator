@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(128,5,95);
+}
+
+.logo{
+    width: 20%;
+}
+.options{
+    width: 40%;
+    margin: auto;
+}
+
+.options ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style:none;
+    justify-content: space-around;
+    
+}
+
+.options ul li{
+    color: white;
+}
+
+.logger{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logger div{
+    width: 30%;
+}
+
+.logger button{
+    padding: 10%;
+}
+
+
