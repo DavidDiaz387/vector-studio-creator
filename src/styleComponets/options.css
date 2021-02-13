@@ -1,7 +1,7 @@
 .option{
     padding: 7% 5%;
-    
     background-color: rgb(62,62,62);
+    transition: 0.4s;
 }
 
 .option a {
@@ -9,4 +9,17 @@
     padding: 12% 5%;
     padding-right: 20%;
     color: white;
+}
+/* clase para el efecto del boton */
+.active{
+    padding: 7% 5%;
+    background-color:rgb(102,102,102);
+}
+
+.active a{
+    text-decoration: none;
+    padding: 12% 5%;
+    padding-right: 20%;
+    color: white;
+    opacity: 0.5;
 }

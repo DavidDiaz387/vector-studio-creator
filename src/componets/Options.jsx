@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import '../styleComponets/options.css'
-import axios from 'axios'
+
 
 class Options extends Component{
     constructor(props){
@@ -13,16 +13,17 @@ class Options extends Component{
     getWindow(e){
         let titulo = this.props.name
         e.preventDefault()
-        let imagen = this.getImages()
-        e.target.parentElement.setAttribute("style","background-color:rgb(102,102,102)")
-        console.log(e.target);
-        this.props.funcion(titulo,imagen)
+    
+        let li = document.getElementsByClassName('option')
+        for (let i = 0; i < li.length; i++) {
+            li[i].classList.remove("active")    
+        }
+        e.target.parentElement.classList.add("active")
+        this.props.funcion(titulo)
+        
     }
 
-    getImages = async ()=>{
-        let imagen = await axios.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=american+psycho")
-        return imagen.data.data.url
-    }
+    
 
     render(){
         

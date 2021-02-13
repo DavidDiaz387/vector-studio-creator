@@ -7,3 +7,31 @@
     display: flex;
     justify-content: space-between;
 }
+
+.home{
+    width: 60%;
+    background-color: silver;
+}
+
+.edition{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    height: 350px;
+    background-color: white;
+}
+
+.image{
+    width: 30%;
+    border: 2px solid black;
+}
+
+.image img{
+    width: 100%;
+}
+
+.fantasma{
+    width: 30%;
+    border: 2px solid black;
+    opacity: 0.5;
+}
